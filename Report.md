@@ -30,4 +30,8 @@ At the end, to attach the functionalities to these web pages, we used Java scrip
 
 ### 4. Maven
 
-For effective project management we used maven. It helps in building the Java project by loading the libraries, packages from the repositories, thereby providing the existing functionalities into our java project.
+For effective project management we used maven. It helps in building the Java project by loading the libraries, packages from the repositories and thereby providing the existing functionalities into our java project. It makes the process of building projects easy and helps in maintaining the uniformity across the build system.
+
+## Use Cases of Health Application
+
+The main purpose of making a online health application is to understand the detailed functionality behind an online e-commerce website which we use in our daily life. The demo web application we developed has certain functionality which resembles with an existing e-commerce web application.
