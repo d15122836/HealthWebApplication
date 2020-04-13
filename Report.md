@@ -43,8 +43,13 @@ The main purpose of making a online health application is to understand the deta
 5. It will also help the administrator of the pharmacy to easily update the stocks on the portal using the special "admin" rights which makes it secure.
 6. In this portal, any number of the customers can register their accounts simulataneously using the registration page.
 7. This web application provide the flexibility to the customers to use either of payment methods such as cash on delivery(COD), net-banking or even by credit/debit cards.
+8. Another important use case is that it allows guest login and therefore all the customers do not need to login
+   
 
 ## Screenshots of the Health Application
 
-## In this section, some screenshots are attached below to show the working of the application and also to understand the above mentioned use cases.
+ In this section, some screenshots are attached below to show the working of the application and also to understand the above mentioned use cases.
+
+ file:///home/dhruv/Pictures/Screenshot%20from%202020-04-13%2020-13-24.png
+ 
 
