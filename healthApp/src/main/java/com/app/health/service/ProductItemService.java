@@ -7,5 +7,6 @@ public interface ProductItemService {
 
     public ProductItem save(ProductItem productItem);
 
+    public ProductItem getbyID(Long id);
 
 }

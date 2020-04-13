@@ -13,6 +13,30 @@ public class HomeController
         return "homepage";
     }
 
+    @GetMapping("/checkOut")
+    public String checkOut(Model model)
+    {
+        return "checkOut";
+    }
+
+    @GetMapping("/login")
+    public String login(Model model)
+    {
+        return "login";
+    }
+
+    @GetMapping("/admin")
+    public String admin(Model model)
+    {
+        return "admin";
+    }
+
+    @GetMapping("/register")
+    public String register(Model model)
+    {
+        return "register";
+    }
+
 
 
 }

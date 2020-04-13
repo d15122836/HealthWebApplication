@@ -29,4 +29,9 @@ public class ProductItemServiceImpl implements ProductItemService {
     public ProductItem save(ProductItem productItem) {
         return productItemRepository.save(productItem);
     }
+
+    @Override
+    public ProductItem getbyID(Long id) {
+        return productItemRepository.findById(id).get();
+    }
 }
