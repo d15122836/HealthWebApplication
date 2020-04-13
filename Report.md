@@ -35,3 +35,16 @@ For effective project management we used maven. It helps in building the Java pr
 ## Use Cases of Health Application
 
 The main purpose of making a online health application is to understand the detailed functionality behind an online e-commerce website which we use in our daily life. The demo web application we developed has certain functionality which resembles with an existing e-commerce web application.
+
+1. The health application can be used by a medical story or a pharmacy to put their business online.
+2. They can sell products to customers who are looking to buy health products online.
+3. This online service by the pharmacy will help the patients who are seriously ill and cannot go out to buy medicines.
+4. The online selling of products will certainly ensure security on the bills as it can avoid any kind of theft or scam from the workers.
+5. It will also help the administrator of the pharmacy to easily update the stocks on the portal using the special "admin" rights which makes it secure.
+6. In this portal, any number of the customers can register their accounts simulataneously using the registration page.
+7. This web application provide the flexibility to the customers to use either of payment methods such as cash on delivery(COD), net-banking or even by credit/debit cards.
+
+## Screenshots of the Health Application
+
+## In this section, some screenshots are attached below to show the working of the application and also to understand the above mentioned use cases.
+
