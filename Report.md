@@ -49,7 +49,5 @@ The main purpose of making a online health application is to understand the deta
 ## Screenshots of the Health Application
 
  In this section, some screenshots are attached below to show the working of the application and also to understand the above mentioned use cases.
-
- file:///home/dhruv/Pictures/Screenshot%20from%202020-04-13%2020-13-24.png
  
-
+ file:///home/dhruv/screenshots-healthwebapplication/Screenshot%20from%202020-04-13%2020-13-24.png 
