@@ -71,10 +71,24 @@ It shows the products that are added in cart to the customers along with the tot
 
 ### Screenshot -5
 
+This image shows the admin page when the administrator of the application logins using the admin credentials. This page gives the admin to update the stocks.
+![](screenshot-6.png)
+
+### Screenshot -6
+
 This screenshot shows the final page of our application which is displayed when the user selects the checkout option. It is displayed as an confirmation that the order has been placed successfully.
 ![](screenshot-5.png "Screenshot-3")
 
 ## Database Structure:
+
+Now a days there are many databases that are available for free but are complex to use and requires good technical skills to setup. They also lack the portability option as they have to be binded again and again when moving the application from one system to another system. Generally, they include certain steps for their functioning such as: installation, schema setup, designing tables, inserting data and then finally connecting it to the application which again requires lots of code.
+
+However it highly depends on the scenario to opt a particular among other available databases. 
+For our case, there was a high chance that our application needs to transferred from our system to another using the github repository, therefore we used in-memory database which makes it highly easier by avoiding any binding required in other databases.
+
+This database requires minimal project setup and configuration.
+
+Among the in-memory databases, we used H2.
 
 
 
