@@ -50,4 +50,33 @@ The main purpose of making a online health application is to understand the deta
 
  In this section, some screenshots are attached below to show the working of the application and also to understand the above mentioned use cases.
  
- file:///home/dhruv/screenshots-healthwebapplication/Screenshot%20from%202020-04-13%2020-13-24.png 
+ ### Screenshot -1
+ The first screenshot depicts the first page of our application. In this screenshot we can see there are two options for the customer to login or register itself and to continue as a guest.
+![](screenshot-21.png)
+
+### Screenshot -2
+
+ This screenshot shows the registeration form and the dialog box to show the successfull registeration of the customer.
+ ![](Screenshot-1.png "Screenshot-1")
+
+### Screenshot -3
+
+This screenshot shows the homepage of our application. It shows all the products that are currently available to the customers. This page contains various functionalities such as AddToCart, RemoveFromCart, ,ViewCart, Checkout etc..
+![](screenshot-3.png "Screenshot-3")
+
+### Screenshot -4
+
+It shows the products that are added in cart to the customers along with the total price and their quantities. It shows the price of each product as well. The cart is displayed when the customers selects view cart option on the top left side.
+![](screenshot-4.png "Screenshot-4")
+
+### Screenshot -5
+
+This screenshot shows the final page of our application which is displayed when the user selects the checkout option. It is displayed as an confirmation that the order has been placed successfully.
+![](screenshot-5.png "Screenshot-3")
+
+## Database Structure:
+
+
+
+
+## Pattern used
