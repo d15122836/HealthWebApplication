@@ -79,7 +79,7 @@ This image shows the admin page when the administrator of the application logins
 This screenshot shows the final page of our application which is displayed when the user selects the checkout option. It is displayed as an confirmation that the order has been placed successfully.
 ![](screenshot-5.png "Screenshot-3")
 
-## Database Structure:
+## Database Structure
 
 Now a days there are many databases that are available for free but are complex to use and requires good technical skills to setup. They also lack the portability option as they have to be binded again and again when moving the application from one system to another system. Generally, they include certain steps for their functioning such as: installation, schema setup, designing tables, inserting data and then finally connecting it to the application which again requires lots of code.
 
@@ -88,9 +88,39 @@ For our case, there was a high chance that our application needs to transferred 
 
 This database requires minimal project setup and configuration.
 
-Among the in-memory databases, we used H2.
+Among the in-memory databases, we used H2. It is a RDBMS which is also written in java and supports the client-server architecture.
 
+To connect to spring boot, we require a dependency to be added in pom.xml among various dependencies.
 
-
+Another major advantage of using this database is that it lives only for the time, our application is in execution.
+There is also a web interface known as H2-console to see the entire database created and all the data in it. It is protected by credentials which we can set up using the console.
 
 ## Pattern used
+
+In our application we used MVC which is one of the widely adopted pattern specially for these kind of applications.
+MVC stands for Model, View and Controller. This pattern divides the mechanism into three parts that are as follows:
+
+### Model
+This part of the pattern is responsible for defining the logic of the project and represents the java object.
+
+### View
+It is responsible for providing the interface between the application users and the applications. In this part, we put all the HTML files that are required to display forms such as login and registeration.
+
+### Controller
+The controller is use to provide the flow to our project. It is responsible to update the view part whenever necessary.
+
+![](MVC-Design-Pattern.png)
+
+## Implementation of the pattern used in Health Web Application
+
+The below picture explains the project structure of our code. In this picture we can see, there are 4 packages under com.app.health.
+
+![](project-structure.png)
+
+While writing the code, we have tried to seperate the functionality of each module as much as possible. This allows us to modify the code at any given time without much overhead. 
+
+The four packages provide unique functionality to our application. In the below screenshot, we can the see the expanded packages of our project.
+
+
+![](expanded-projectStructure.png)
+### Controller package
