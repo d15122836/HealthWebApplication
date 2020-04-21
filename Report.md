@@ -3,15 +3,15 @@
 
 ## Introduction
 
-As more and more people are getting into technology, it has certainly increased the dependency on the digital equipments such as Mobile phones, Tablets, laptops etc.. Now a days, people even do socializing over the internet. Online tutorials are made to help students learn from their home. Another major benefit of this digitization is that people tend to shop online and therefore today there are large number of E-commerce companies such as amazon.com who have established their businesses online. People like to order their products online and get it delivered at their door steps which saves their time and effort. Due to such a high demand, these online e-commerce companies make attractive websites and mobile applications to help the users to browse through their products and order them online conveniently. Therefore we have developed a web application to understand the functioning of the e-commerce application as an IT administrator.
+As more and more people are getting into technology, it has certainly increased the dependency on the digital equipments such as Mobile phones, Tablets, laptops etc.. Now a days, people even do socializing over the internet. Online tutorials are made to help students learn from their home. Another major benefit of this digitization is that people tend to shop online and therefore today there are large number of E-commerce companies such as amazon.com who have established their businesses online. People like to order their products online and get it delivered at their door steps which saves their time and effort. Due to such a high demand, these online e-commerce companies make attractive websites and mobile applications to help the users to browse through their products and order them online conveniently. Therefore I have developed a web application to understand the functioning of the e-commerce application as an IT administrator.
 
 ## Description of the functionality:
 
-We have developed a online web application for a health company as a demo to show the working of the online e-commerce application. Our web application is built by leveraging various existing technologies which as described in this section as below:
+I have developed a online web application for a health company as a demo to show the working of the online e-commerce application. Our web application is built by leveraging various existing technologies which as described in this section as below:
 
 ### 1.  Springboot-starter-web
 
-We used springboot for our project as it provides fast development of application which can be simple or web-based. It is comparitively easier and takes less time in configuring and building the applications. The springboot leverages the Spring framework. It provides the software developers the functionalities of spring framework and web servers combined in one single module. Springboot also provides several other useful features such as effective database transactions, integration with Java APIs and simultaneously reduces the time of development.
+I used springboot for our project as it provides fast development of application which can be simple or web-based. It is comparitively easier and takes less time in configuring and building the applications. The springboot leverages the Spring framework. It provides the software developers the functionalities of spring framework and web servers combined in one single module. Springboot also provides several other useful features such as effective database transactions, integration with Java APIs and simultaneously reduces the time of development.
 
 ### 2. H2 Database engine
 
@@ -19,18 +19,18 @@ H2 database engine is an open source, fast, reliable JDBC API. It has builtin se
 
 ### 3. Javascript/CSS/HTML
 
-In our application we used three languages for our web pages. All the languages mentioned have their own functionality and work side by side to enhace the working of our online health application.
-We used HTML to put the contents in our web-pages such as login,registration forms and product details.
-In order to effectively display the contents specified in the HTML, we used CSS.
-At the end, to attach the functionalities to these web pages, we used Java script. The Javascript manages all the functioning of the web-pages such as generating cart, adding products to cart, updating stock etc.
+In our application I used three languages for our web pages. All the languages mentioned have their own functionality and work side by side to enhace the working of our online health application.
+I used HTML to put the contents in our web-pages such as login,registration forms and product details.
+In order to effectively display the contents specified in the HTML, I used CSS.
+At the end, to attach the functionalities to these web pages, I used Java script. The Javascript manages all the functioning of the web-pages such as generating cart, adding products to cart, updating stock etc.
 
 ### 4. Maven
 
-For effective project management we used maven. It helps in building the Java project by loading the libraries, packages from the repositories and thereby providing the existing functionalities into our java project. It makes the process of building projects easy and helps in maintaining the uniformity across the build system.
+For effective project management I used maven. It helps in building the Java project by loading the libraries, packages from the repositories and thereby providing the existing functionalities into our java project. It makes the process of building projects easy and helps in maintaining the uniformity across the build system.
 
 ## Use Cases of Health Application
 
-The main purpose of making a online health application is to understand the detailed functionality behind an online e-commerce website which we use in our daily life. The demo web application we developed has certain functionality which resembles with an existing e-commerce web application.
+The main purpose of making a online health application is to understand the detailed functionality behind an online e-commerce website which I use in our daily life. The demo web application I developed has certain functionality which resembles with an existing e-commerce web application.
 
 1. The health application can be used by a medical story or a pharmacy to put their business online.
 2. They can sell products to customers who are looking to buy health products online.
@@ -93,14 +93,14 @@ There is also a web interface known as H2-console to see the entire database cre
 
 ## Pattern used
 
-In our application we used MVC which is one of the widely adopted pattern specially for these kind of applications.
+In our application I used MVC which is one of the widely adopted pattern specially for these kind of applications.
 MVC stands for Model, View and Controller. This pattern divides the mechanism into three parts that are as follows:
 
 ### Model
 This part of the pattern is responsible for defining the logic of the project and represents the java object.
 
 ### View
-It is responsible for providing the interface between the application users and the applications. In this part, we put all the HTML files that are required to display forms such as login and registeration.
+It is responsible for providing the interface between the application users and the applications. In this part, I put all the HTML files that are required to display forms such as login and registeration.
 
 ### Controller
 The controller is use to provide the flow to our project. It is responsible to update the view part whenever necessary.
@@ -113,7 +113,7 @@ The below picture explains the project structure of our code. In this picture we
 
 ![](project-structure.png)
 
-While writing the code, we have tried to seperate the functionality of each module as much as possible. This allows us to modify the code at any given time without much overhead. 
+While writing the code, I have tried to seperate the functionality of each module as much as possible. This allows us to modify the code at any given time without much overhead. 
 
 The four packages provide unique functionality to our application. In the below screenshot, we can the see the expanded packages of our project.
 
@@ -123,7 +123,7 @@ The four packages provide unique functionality to our application. In the below 
 
 ### Controller package
 
-The controller package of the application contains two java classes. To seperate the functionality, we defined two classes for users and products respectively. User class mapped to users API whereas the product class is mapped to product API. The two class are resposible for defining the services. 
+The controller package of the application contains two java classes. To seperate the functionality, I defined two classes for users and products respectively. User class mapped to users API whereas the product class is mapped to product API. The two class are resposible for defining the services. 
 
 ### Model package
 
@@ -135,11 +135,11 @@ Since our application also contains database functionality, I tried to seperate 
 
 ### Service
 
-In the servie package, we specified two class HealthApplication and HomeController. HealthApplication is our main application which will be executed and we haven't put any function definition, declaration, class , variables etc.. in our main class. The HomeController class defines all the mapping of the webpages.
+In the servie package, I specified two class HealthApplication and HomeController. HealthApplication is our main application which will be executed and I haven't put any function definition, declaration, class , variables etc.. in our main class. The HomeController class defines all the mapping of the webpages.
 
 ### View
 
-In the static package of our project, we can see there are 3 more packages namely; css, img and js. These 3 packages are responsible for the visualization of our code. CSS contains predefined style sheets which we used in our project to give a proper look and feel. The "img" package contains all the images of our products that we used in our application and displayed them on the webpage.
+In the static package of our project, I can see there are 3 more packages namely; css, img and js. These 3 packages are responsible for the visualization of our code. CSS contains predefined style sheets which I used in our project to give a proper look and feel. The "img" package contains all the images of our products that I used in our application and displayed them on the webpage.
 
 ### Templates 
-Lastly in the templates package, there are two files namely; application.properties and data.sql. Application.properties as the name suggests defines all the properties related to the application such as caching, dataasource url, drivers etc.. and data.sql contains all the sql queries that we requried in our application.
+Lastly in the templates package, there are two files namely; application.properties and data.sql. Application.properties as the name suggests defines all the properties related to the application such as caching, dataasource url, drivers etc.. and data.sql contains all the sql queries that I requried in our application.
