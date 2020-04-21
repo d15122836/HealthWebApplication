@@ -1,9 +1,5 @@
 # Health Web Application:
 
-1. Description of the funtionality - use cases, screenshots
-2. Underlying DB structure
-3. Discussion of patterns used in develoment, illustrating with the code
-4. Link to repository:
 
 ## Introduction
 
@@ -123,4 +119,27 @@ The four packages provide unique functionality to our application. In the below 
 
 
 ![](expanded-projectStructure.png)
+
+
 ### Controller package
+
+The controller package of the application contains two java classes. To seperate the functionality, we defined two classes for users and products respectively. User class mapped to users API whereas the product class is mapped to product API. The two class are resposible for defining the services. 
+
+### Model package
+
+In the application, a model package was built containing 2 java classes, one for product and another one for the users. Both the java classes have defined constructors with their getters and setter for the user and product values.
+
+### Repository
+
+Since our application also contains database functionality, I tried to seperate it's code with other functionalities. The repository package contains interfaces for product Items and user Details. They both extends CrudRepository to enable the "CRUD" functionality in our application
+
+### Service
+
+In the servie package, we specified two class HealthApplication and HomeController. HealthApplication is our main application which will be executed and we haven't put any function definition, declaration, class , variables etc.. in our main class. The HomeController class defines all the mapping of the webpages.
+
+### View
+
+In the static package of our project, we can see there are 3 more packages namely; css, img and js. These 3 packages are responsible for the visualization of our code. CSS contains predefined style sheets which we used in our project to give a proper look and feel. The "img" package contains all the images of our products that we used in our application and displayed them on the webpage.
+
+### Templates 
+Lastly in the templates package, there are two files namely; application.properties and data.sql. Application.properties as the name suggests defines all the properties related to the application such as caching, dataasource url, drivers etc.. and data.sql contains all the sql queries that we requried in our application.
