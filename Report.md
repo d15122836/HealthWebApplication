@@ -5,7 +5,7 @@
 
 As more and more people are getting into technology, it has certainly increased the dependency on the digital equipments such as Mobile phones, Tablets, laptops etc.. Now a days, people even do socializing over the internet. Online tutorials are made to help students learn from their home. Another major benefit of this digitization is that people tend to shop online and therefore today there are large number of E-commerce companies such as amazon.com who have established their businesses online. People like to order their products online and get it delivered at their door steps which saves their time and effort. Due to such a high demand, these online e-commerce companies make attractive websites and mobile applications to help the users to browse through their products and order them online conveniently. Therefore I have developed a web application to understand the functioning of the e-commerce application as an IT administrator.
 
-## Description of the functionality:
+## Description of the functionality
 
 I have developed a online web application for a health company as a demo to show the working of the online e-commerce application. Our web application is built by leveraging various existing technologies which as described in this section as below:
 
@@ -93,7 +93,10 @@ There is also a web interface known as H2-console to see the entire database cre
 
 ## Pattern used
 
-In our application I used MVC which is one of the widely adopted pattern specially for these kind of applications.
+In our application I used several design patterns that reduced the complexity involved in our web application and simultaneously provide a standard for development.
+
+### 1.  MVC
+I used MVC which is one of the widely adopted pattern specially for these kind of applications.
 MVC stands for Model, View and Controller. This pattern divides the mechanism into three parts that are as follows:
 
 ### Model
@@ -143,3 +146,27 @@ In the static package of our project, I can see there are 3 more packages namely
 
 ### Templates 
 Lastly in the templates package, there are two files namely; application.properties and data.sql. Application.properties as the name suggests defines all the properties related to the application such as caching, dataasource url, drivers etc.. and data.sql contains all the sql queries that I requried in our application.
+
+### 2. Singleton Pattern
+
+A singleton pattern is a pattern in which only single instance of a class is present in the JVM. If we look at our main class can be instatiated only once and that will be running our web application. At any given time, there can only be one instance of our class running.
+
+### 3. Adapter Pattern
+
+An adapter pattern is that pattern where two interfaces that are completely un related to each other in terms of the functionality they provide are clubbed together to achieve a single objective. In our application, we defined two interfaces as explained above that for users and products. These two interfaces are joined together using a single object to provide the overall functionality of maintaining the database for the users and product items in our web application.
+
+### 4. Chain of Responsibility Pattern
+
+In this pattern, the main goal is to achieve the loose couple to a maximum extent. The user command is passed through all the sub-parts of the program and each parts seperately plays a role in processing the command. In our application also, I defined multiple packages each with their specific set of roles. These packages simultaneously process the commands and generate a common output. 
+
+
+## Reference 
+
+1. Pattern study : https://www.journaldev.com/1827/java-design-patterns-example-tutorial
+
+2. MVC Pattern : https://www.geeksforgeeks.org/mvc-design-pattern/
+3. Spring Boot : https://spring.io/projects/spring-boot
+4. In memory database : https://www.omnisci.com/technical-glossary/in-memory-database
+5. H2 database : https://www.h2database.com/html/main.html
+6. Javascript, CSS and HTML : https://www.w3schools.com/howto/default_page5.asp
+   
